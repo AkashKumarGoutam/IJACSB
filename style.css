@@ -1,0 +1,42 @@
+.left-contant-ancher{
+  text-decoration: none;
+  color: black;
+  padding: 10px;
+
+}
+.left-contant-ancher:hover{
+  background-color: rgb(222, 210, 210);
+}
+.nav-link:hover{
+  background-color: rgb(214, 165, 74);
+  border-radius: 15px;
+}
+
+
+.footer {
+    background-color: #333; /* Background color for the footer */
+    color: white; /* Text color for the footer */
+    padding: 20px 0; /* Add some padding to the top and bottom of the footer */
+  }
+  
+  .footer-body {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .left-footer,
+  .right-footer {
+    flex: 0 0 calc(50% - 10px); /* Divide the footer into two columns with some spacing */
+  }
+
+  /* Style for h3 and p elements in the footer */
+  .footer h3 {
+    color: #fff;
+    font-size: 16px;
+  }
+
+  .footer p {
+    color: #ccc;
+    font-size: 14px;
+  }
